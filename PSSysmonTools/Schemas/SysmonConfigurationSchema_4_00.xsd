@@ -539,7 +539,7 @@
                     <xs:element name="TargetObject" type="GenericStringRule"  minOccurs="0" maxOccurs="unbounded"/>
                     <!-- Due to a broken sysmon DTD schema, the following elements should be supported but are not: -->
                     <!-- SetValue: Details -->
-                    <!-- DeleteKey: NewName -->
+                    <!-- RenameKey: NewName -->
                   </xs:sequence>
                   <xs:attribute name="onmatch" type="IncludeExcludeType" use="required"/>
                 </xs:complexType>
